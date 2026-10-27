@@ -1,0 +1,6 @@
+{
+  "experiments": [
+    {"name": "bm25-k5", "k": 5},
+    {"name": "closed-book", "closed_book": true}
+  ]
+}

@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.coverage
+htmlcov/
+.DS_Store
+.cache/
+data/raw/*
+data/processed/*
+data/indexes/*
+!**/.gitkeep
+runs/
+dist/
+system_outputs/*.json
+.env

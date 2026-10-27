@@ -1,0 +1,58 @@
+{
+  "min_words": 20,
+  "sources": [
+    {
+      "name": "cmu-history",
+      "seeds": [
+        "https://www.cmu.edu/about/history/",
+        "https://www.cmu.edu/advisory-board/images/history-cmu.html",
+        "https://www.cmu.edu/annual-report-2025/assets/annual-report-2025.pdf"
+      ],
+      "allowed_prefixes": [
+        "https://www.cmu.edu/about/",
+        "https://www.cmu.edu/advisory-board/images/",
+        "https://www.cmu.edu/annual-report-2025/assets/"
+      ],
+      "max_depth": 1,
+      "max_pages": 30
+    },
+    {
+      "name": "pitt-athletics",
+      "seeds": [
+        "https://pittsburghpanthers.com/sports/mbball/schedule/text",
+        "https://pittsburghpanthers.com/sports/football/schedule/text",
+        "https://pittsburghpanthers.com/sports/wvball/schedule/text",
+        "https://pittsburghpanthers.com/sports/mbball/roster",
+        "https://pittsburghpanthers.com/sports/football/roster"
+      ],
+      "allowed_prefixes": [
+        "https://pittsburghpanthers.com/sports/"
+      ],
+      "max_depth": 0,
+      "max_pages": 10
+    },
+    {
+      "name": "steelers-roster",
+      "seeds": [
+        "https://www.steelers.com/team/players-roster/"
+      ],
+      "allowed_prefixes": [
+        "https://www.steelers.com/team/players-roster/"
+      ],
+      "max_depth": 0,
+      "max_pages": 2
+    },
+    {
+      "name": "pirates-roster",
+      "seeds": [
+        "https://www.mlb.com/pirates/roster/coaches",
+        "https://www.mlb.com/pirates/roster/40-man"
+      ],
+      "allowed_prefixes": [
+        "https://www.mlb.com/pirates/roster/"
+      ],
+      "max_depth": 0,
+      "max_pages": 4
+    }
+  ]
+}

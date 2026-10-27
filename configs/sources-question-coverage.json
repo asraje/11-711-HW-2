@@ -1,0 +1,260 @@
+{
+  "min_words": 18,
+  "sources": [
+    {
+      "name": "cmu-focused-history",
+      "seeds": [
+        "https://www.cmu.edu/about/history/",
+        "https://www.cmu.edu/about/traditions",
+        "https://www.cmu.edu/about/campus-map/",
+        "https://www.cmu.edu/tepper/about/our-history",
+        "https://www.cs.cmu.edu/Groups/ahs/",
+        "https://www.cs.cmu.edu/afs/cs/project/alv/www/",
+        "https://www.ri.cmu.edu/about/ri-history/",
+        "https://ai.cmu.edu/research-and-policy-impact/history-of-ai-at-cmu"
+      ],
+      "allowed_prefixes": [
+        "https://www.cmu.edu/about/",
+        "https://www.cmu.edu/tepper/",
+        "https://www.cs.cmu.edu/Groups/ahs/",
+        "https://www.cs.cmu.edu/afs/cs/project/alv/www/",
+        "https://www.ri.cmu.edu/about/",
+        "https://ai.cmu.edu/research-and-policy-impact/"
+      ],
+      "max_depth": 1,
+      "max_pages": 60
+    },
+    {
+      "name": "pittsburgh-and-county-government",
+      "seeds": [
+        "https://www.pittsburghpa.gov/City-Government/Finance-Budget/Taxes",
+        "https://www.pittsburghpa.gov/City-Government/Finance-Budget/Taxes/Tax-FAQs",
+        "https://www.pittsburghpa.gov/City-Government/Finance-Budget/Management-Budget/Budgets-and-Reports",
+        "https://www.pittsburghpa.gov/files/assets/city/v/2/omb/documents/operating-budgets/2026-operating-budget.pdf",
+        "https://www.alleghenycounty.us/Government/Department-Directory/Budget-and-Finance/County-Budgets",
+        "https://www.alleghenycounty.us/files/assets/county/v/1/government/budget-amp-finance/budgets-%E2%80%93-line-item-detail/2026-line-item-budget-final.pdf"
+      ],
+      "allowed_prefixes": [
+        "https://www.pittsburghpa.gov/City-Government/Finance-Budget/",
+        "https://www.pittsburghpa.gov/files/assets/city/",
+        "https://www.alleghenycounty.us/Government/Department-Directory/Budget-and-Finance/",
+        "https://www.alleghenycounty.us/files/assets/county/"
+      ],
+      "max_depth": 2,
+      "max_pages": 100
+    },
+    {
+      "name": "municipal-tax-pages",
+      "seeds": [
+        "https://www.bethelparkpa.gov/finance/real-estate-tax",
+        "https://boro.dormont.pa.us/tax-collector/",
+        "https://mtlebanon.org/departments/tax/"
+      ],
+      "allowed_prefixes": [
+        "https://www.bethelparkpa.gov/finance/",
+        "https://boro.dormont.pa.us/",
+        "https://mtlebanon.org/departments/"
+      ],
+      "max_depth": 1,
+      "max_pages": 30
+    },
+    {
+      "name": "pitt-athletics-targeted",
+      "seeds": [
+        "https://pittsburghpanthers.com/sports/wvball/schedule/text",
+        "https://pittsburghpanthers.com/sports/wbball/schedule/text",
+        "https://pittsburghpanthers.com/sports/mbball/schedule/text",
+        "https://pittsburghpanthers.com/sports/football/schedule/text",
+        "https://pittsburghpanthers.com/sports/wvball/roster",
+        "https://pittsburghpanthers.com/sports/football/roster"
+      ],
+      "allowed_prefixes": ["https://pittsburghpanthers.com/sports/"],
+      "max_depth": 0,
+      "max_pages": 20
+    },
+    {
+      "name": "robert-morris-athletics",
+      "seeds": [
+        "https://rmucolonials.com/sports/mens-soccer/schedule",
+        "https://rmucolonials.com/sports/football/schedule",
+        "https://rmucolonials.com/sports/mens-basketball/roster"
+      ],
+      "allowed_prefixes": ["https://rmucolonials.com/sports/"],
+      "max_depth": 0,
+      "max_pages": 12
+    },
+    {
+      "name": "chatham-athletics",
+      "seeds": [
+        "https://gochathamcougars.com/sports/mens-basketball/schedule",
+        "https://gochathamcougars.com/sports/womens-ice-hockey/schedule"
+      ],
+      "allowed_prefixes": ["https://gochathamcougars.com/sports/"],
+      "max_depth": 0,
+      "max_pages": 12
+    },
+    {
+      "name": "duquesne-athletics",
+      "seeds": [
+        "https://goduquesne.com/sports/womens-basketball/schedule",
+        "https://goduquesne.com/sports/football/roster/coaches"
+      ],
+      "allowed_prefixes": ["https://goduquesne.com/sports/"],
+      "max_depth": 0,
+      "max_pages": 12
+    },
+    {
+      "name": "syracuse-schedule-and-sos-provider",
+      "seeds": [
+        "https://cuse.com/sports/football/schedule/text",
+        "https://www.teamrankings.com/college-football/ranking/sos"
+      ],
+      "allowed_prefixes": [
+        "https://cuse.com/sports/football/",
+        "https://www.teamrankings.com/college-football/ranking/"
+      ],
+      "max_depth": 0,
+      "max_pages": 8
+    },
+    {
+      "name": "professional-sports-rosters-and-schedules",
+      "seeds": [
+        "https://www.steelers.com/team/players-roster/",
+        "https://www.steelers.com/team/front-office/",
+        "https://www.steelers.com/team/coaches/",
+        "https://www.nhl.com/penguins/schedule/20262027/",
+        "https://www.nhl.com/penguins/roster/",
+        "https://www.mlb.com/pirates/roster/40-man",
+        "https://www.mlb.com/pirates/roster/coaches",
+        "https://www.mlb.com/pirates/schedule/2026/fullseason"
+      ],
+      "allowed_prefixes": [
+        "https://www.steelers.com/team/",
+        "https://www.nhl.com/penguins/",
+        "https://www.mlb.com/pirates/roster/",
+        "https://www.mlb.com/pirates/schedule/"
+      ],
+      "max_depth": 1,
+      "max_pages": 60
+    },
+    {
+      "name": "pittsburgh-event-calendars",
+      "seeds": [
+        "https://improv.com/pittsburgh/calendar/",
+        "https://www.arcadecomedytheater.com/",
+        "https://thunderbirdmusichall.com/",
+        "https://pittsburghsymphony.org/calendar",
+        "https://pittsburghopera.org/our-team/auditions/",
+        "https://pittsburghsavoyards.org/tickets/",
+        "https://trustarts.org/",
+        "https://www.visitpittsburgh.com/events-festivals/",
+        "https://www.visitpittsburgh.com/events-festivals/annual-events/pittsburgh-renaissance-festival/",
+        "https://www.pghcitypaper.com/pittsburgh/EventSearch?v=d",
+        "https://pittsburgh.events/",
+        "https://downtownpittsburgh.com/events/"
+      ],
+      "allowed_prefixes": [
+        "https://improv.com/pittsburgh/",
+        "https://www.arcadecomedytheater.com/",
+        "https://thunderbirdmusichall.com/",
+        "https://pittsburghsymphony.org/",
+        "https://pittsburghopera.org/",
+        "https://pittsburghsavoyards.org/",
+        "https://trustarts.org/",
+        "https://www.visitpittsburgh.com/",
+        "https://www.pghcitypaper.com/",
+        "https://pittsburgh.events/",
+        "https://downtownpittsburgh.com/events/"
+      ],
+      "max_depth": 2,
+      "max_pages": 180
+    },
+    {
+      "name": "pittsburgh-institution-events-and-visits",
+      "seeds": [
+        "https://www.cmu.edu/engage/alumni/events/campus/index.html",
+        "https://events.cmu.edu/",
+        "https://calendar.library.pitt.edu/",
+        "https://calendar.library.pitt.edu/events/month",
+        "https://carnegiecarnegie.org/",
+        "https://librarymusichall.com/frequently-asked-questions-faqs",
+        "https://mattress.org/",
+        "https://clementemuseum.com/faqs/",
+        "https://www.heinzhistorycenter.org/research/detre-library-archives/",
+        "https://www.heinzhistorycenter.org/visit/admission/",
+        "https://kaminsciencecenter.org/events/21-plus-nights/",
+        "https://www.mtlebanonlibrary.org/",
+        "https://carnegieart.org/",
+        "https://awaacc.org/",
+        "https://www.pittsburghpa.gov/City-Government/Departments/Office-of-Management-and-Budget"
+      ],
+      "allowed_prefixes": [
+        "https://www.cmu.edu/engage/alumni/events/",
+        "https://events.cmu.edu/",
+        "https://calendar.library.pitt.edu/",
+        "https://carnegiecarnegie.org/",
+        "https://librarymusichall.com/",
+        "https://mattress.org/",
+        "https://clementemuseum.com/",
+        "https://www.heinzhistorycenter.org/research/",
+        "https://www.heinzhistorycenter.org/visit/",
+        "https://kaminsciencecenter.org/events/",
+        "https://www.mtlebanonlibrary.org/",
+        "https://carnegieart.org/",
+        "https://awaacc.org/",
+        "https://www.pittsburghpa.gov/City-Government/Departments/"
+      ],
+      "max_depth": 2,
+      "max_pages": 100
+    },
+    {
+      "name": "pittsburgh-local-food-and-business",
+      "seeds": [
+        "https://ironbornpizza.com/",
+        "https://pusadeesgarden.com/",
+        "https://www.gabyetjules.com/",
+        "https://www.fetfisk.com/",
+        "https://www.fogodechao.com/location/",
+        "https://takopgh.com/",
+        "https://www.fogodechao.com/location/pittsburgh/",
+        "https://www.visitpittsburgh.com/neighborhoods-v2/dining-drinks-local-flavor/",
+        "https://www.visitpittsburgh.com/meetings-and-events/reasons-to-meet-in-pittsburgh/places-to-dine/",
+        "https://www.visitpittsburgh.com/events-festivals/food-festivals/",
+        "https://holytrinitypgh.org/festival/",
+        "https://farmersmarketcooperativeofeastliberty.com/",
+        "https://pittsburghrestaurantweek.com/"
+      ],
+      "allowed_prefixes": [
+        "https://ironbornpizza.com/",
+        "https://pusadeesgarden.com/",
+        "https://www.gabyetjules.com/",
+        "https://www.fetfisk.com/",
+        "https://www.fogodechao.com/location/",
+        "https://takopgh.com/",
+        "https://www.visitpittsburgh.com/",
+        "https://holytrinitypgh.org/",
+        "https://farmersmarketcooperativeofeastliberty.com/",
+        "https://pittsburghrestaurantweek.com/"
+      ],
+      "max_depth": 2,
+      "max_pages": 100
+    },
+    {
+      "name": "pittsburgh-bridges-and-history",
+      "seeds": [
+        "https://www.loc.gov/item/pa0073/",
+        "https://www.asce.org/about-civil-engineering/history-and-heritage/historic-landmarks/smithfield-street-bridge",
+        "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/pubsforms/publications/pub-862.pdf",
+        "https://www.heinzhistorycenter.org/research/detre-library-archives/"
+      ],
+      "allowed_prefixes": [
+        "https://www.loc.gov/item/",
+        "https://www.asce.org/about-civil-engineering/history-and-heritage/",
+        "https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/pubsforms/publications/",
+        "https://www.heinzhistorycenter.org/research/"
+      ],
+      "max_depth": 1,
+      "max_pages": 40
+    }
+  ]
+}
